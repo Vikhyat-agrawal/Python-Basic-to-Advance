@@ -17,3 +17,30 @@ computer_choice = random.choice(choices)
 result = snake_water_gun(user_choice, computer_choice)
 print(f"Computer chose: {computer_choice}")
 print(result)
+
+
+
+
+
+'''use 
+1=snake
+0=water
+-1=gun'''
+def game(user, computer):
+    if user == computer:
+        return None
+    if (user == 1 and computer == 0) or (user == 0 and computer == -1) or (user == -1 and computer == 1):
+        return True
+    else:
+        return False
+print("Welcome to Snake, Water, Gun game!")
+user = int(input("Enter 1 for Snake, 0 for Water, -1 for Gun: "))
+computer = random.randint(-1, 1)
+result = game(user, computer)
+print(f"Computer chose: {computer}")
+if result == None:
+    print("It's a tie!")
+elif result:
+    print("You win!")
+else:
+    print("Computer wins!") 
