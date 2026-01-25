@@ -1,0 +1,6 @@
+Python is a high-level programming language.
+It was created by Guido van Rossum in 1991.
+Python is known for its simplicity and readability.
+Many developers love Python because of its versatility.
+You can use Python for web development, data science, and automation.
+Learning Python is a great way to start your programming journey.
